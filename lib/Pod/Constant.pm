@@ -38,7 +38,7 @@ These C<XE<lt>...E<gt>> hints are rendered as an empty string by POD readers,
 but can be seen by C<Pod::Constant>. The value following the C<XE<lt>...E<gt>>
 construct may be:
 
-=back
+=over
 
 =item *
 
@@ -57,7 +57,7 @@ OK for file paths, etc.
 
 =back
 
-Whitespace is ignored, so for example C<X<E<lt>$foo = E<gt>  123> is
+Whitespace is ignored, so for example C<XE<lt>$foo = E<gt>  123> is
 permissible.
 
 "Trailing punctuation" is defined as the ASCII characters '.', ',',
